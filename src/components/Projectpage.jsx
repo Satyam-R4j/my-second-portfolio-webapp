@@ -8,7 +8,7 @@ import fitliftImg from "../assets/fitlift.png"
 const Projectpage = () => {
   return (
     <>
-      {/* <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>{" "} */}
+      
       <div className="flex justify-center  pt-32 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] min-h-screen">
         <div className="mx-auto w-[50wh]"><h1 className="font-extrabold text-center mb-16 font-['Rubik'] text-4xl text-white">PROJECTS</h1>
         <div className="flex gap-6 items-center justify-center  text-center font-['Roboto_Mono'] ">
