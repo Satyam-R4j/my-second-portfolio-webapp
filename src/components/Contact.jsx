@@ -12,7 +12,7 @@ const Contact = () => {
             <input className="py-4 px-2 border   border-zinc-500 w-full rounded-2xl" type="text" placeholder="Name" />
             <input className="py-4 px-2 border  border-zinc-500 w-full rounded-2xl" type="text" placeholder="Email"/>
             <textarea className="w-full p-4 h-60 border  border-zinc-500 rounded-2xl" type="text" placeholder="Message"/>
-            <button className="p-3 uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold rounded-xl cursor-pointer">
+            <button className="p-3 transition-transform uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold rounded-xl cursor-pointer">
               SUBMIT
             </button>
           </div>

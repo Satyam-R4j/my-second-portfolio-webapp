@@ -19,7 +19,7 @@ export const Landingpage = () => {
         {/* Left Section */}
         <div className="left hover:scale-95 cursor-pointer   w-[50vh]">
           <img
-            className="rounded-full border border-zinc-600 shadow-2xl  shadow-zinc-800 w-80"
+            className="rounded-full transition-transform border border-zinc-600 shadow-2xl  shadow-zinc-800 w-80"
             src={MyImg}
             alt="Profile picture of Satyam Raj"
           />
@@ -34,16 +34,16 @@ export const Landingpage = () => {
           <h2 className="text-xl  uppercase my-2 font-bold">MERN stack Developer</h2>
           <span className="flex justify-center items-center gap-3 my-1">
             <a href="https://x.com/satyamraj2104" target="_blank">
-              <img className="w-10 hover:scale-120" src={twitterDark} alt="Twitter Icon" />
+              <img className="w-10 transition-transform hover:scale-120" src={twitterDark} alt="Twitter Icon" />
             </a>
             <a href="https://github.com/Satyam-R4j" target="_blank">
-              <img className="w-10 hover:scale-120" src={githubDark} alt="github Icon" />
+              <img className="w-10 transition-transform  hover:scale-120" src={githubDark} alt="github Icon" />
             </a>
             <a href="https://x.com/satyamraj2104" target="_blank">
-              <img className="w-10 hover:scale-120" src={linkedinDark} alt="linkedin Icon" />
+              <img className="w-10 transition-transform hover:scale-120" src={linkedinDark} alt="linkedin Icon" />
             </a>
             <a href="https://leetcode.com/u/Satyam-Raj/" target="_blank">
-              <img className="w-10 hover:scale-120" src={leetcodeDark} alt="LeetCode Icon" />
+              <img className="w-10 transition-transform hover:scale-120" src={leetcodeDark} alt="LeetCode Icon" />
             </a>
           </span>
           <span className="">
@@ -52,8 +52,8 @@ export const Landingpage = () => {
               <br /> commercial businesses.
             </p>
           </span>
-          <a href={CV}>
-            <button className="p-3 uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold rounded-xl cursor-pointer">
+          <a href={CV} target="_blank">
+            <button className="p-3 transition-transform uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold rounded-xl cursor-pointer">
               Resume
             </button>
           </a>
