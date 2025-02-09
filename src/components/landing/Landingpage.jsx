@@ -13,9 +13,9 @@ import { useTheme } from "../../common/Themecontext";
 
 export const Landingpage = () => {
   return (
-    <section className=" flex justify-center items-center     min-h-screen">
-         <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
-      <div className="mx-auto w-full  py-32 flex justify-center  items-center ">
+    <section className=" flex   flex-col justify-center items-center     min-h-screen">
+         <div class="absolute top-0 z-[-2] h-screen w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+      <div className="mx-auto w-full  py-32 sm:flex sm:flex-col md:flex-row justify-center  items-center ">
         {/* Left Section */}
         <div className="left hover:scale-95 cursor-pointer   w-[50vh]">
           <img
