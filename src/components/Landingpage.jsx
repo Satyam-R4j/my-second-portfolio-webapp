@@ -1,15 +1,10 @@
 import React from "react";
-import MyImg from "../../assets/myPic.jpg";
-import moon from "../../assets/moon.svg";
-import sun from "../../assets/sun.svg";
-import twitterDark from "../../assets/twitter-dark.svg";
-import githubDark from "../../assets/github-dark.svg";
-import githubLight from "../../assets/github-light.svg";
-import linkedinDark from "../../assets/linkedin-dark.svg";
-import linkedinLight from "../../assets/linkedin-light.svg";
-import leetcodeDark from "../../assets/leetcodeDark.svg";
-import CV from "../../assets/cv.pdf";
-import { useTheme } from "../../common/Themecontext";
+import MyImg from "../assets/myPic.jpg";
+import twitterDark from "../assets/twitter-dark.svg";
+import githubDark from "../assets/github-dark.svg";
+import linkedinDark from "../assets/linkedin-dark.svg";
+import leetcodeDark from "../assets/leetcodeDark.svg";
+import CV from "../assets/cv.pdf";
 
 export const Landingpage = () => {
   return (
@@ -80,3 +75,6 @@ export const Landingpage = () => {
     </section>
   );
 };
+
+
+export default Landingpage;
