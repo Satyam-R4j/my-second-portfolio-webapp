@@ -18,12 +18,13 @@ const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
       {" "}
+      <div className="bg-[#000000] w-screen bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
       <Navbar />
       <Landingpage />
       <Projectpage />
       <Skills />
       <Contact/>
-      <Footer/>
+      <Footer/></div>
     </>
   );
 }
