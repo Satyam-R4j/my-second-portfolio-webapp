@@ -1,4 +1,4 @@
-import "./App.css";
+import App from "./App.css";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Landingpage from "./components/Landingpage";

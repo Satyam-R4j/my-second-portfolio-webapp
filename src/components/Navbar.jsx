@@ -1,5 +1,4 @@
 import React from "react";
-import homeIcon from "../assets/home.svg";
 import reactImg from "../assets/react.svg";
 import viteImg from "../assets/vite.svg";
 import tailwindImg from "../assets/tailwind.png";

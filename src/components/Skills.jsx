@@ -1,6 +1,5 @@
 
 import React from "react";
-import checkImg from "../assets/checkmark-dark.svg";
 import react from "../assets/react.svg";
 import tailwind from "../assets/tailwind.png";
 import algo from "../assets/skills/algo.png";
